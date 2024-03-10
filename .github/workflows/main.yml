@@ -14,7 +14,7 @@ steps:
 uses: actions/setup-node@v1
 with:
 node-version: '20'
-- name: Insatll Dependencies
+- name: Install Dependencies
 run: npm install
 - name: Deploy to Firebase
 uses: w9jds/firebase-action@master
